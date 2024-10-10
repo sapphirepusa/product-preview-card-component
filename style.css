@@ -8,7 +8,7 @@ body{
     gap: 0;
     margin: 0;
     padding: 0;
-    height: 100dvh;
+    height: 100svh;
     width: auto;
 }
 
@@ -17,7 +17,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    min-height: 56.9rem;
+    height: 56.9rem;
 }
 
 .card-img {
@@ -31,4 +31,27 @@ body{
     height: 28.188rem;
     width: 18.75rem;
     border-radius: 0 0.813rem 0.813rem 0;
+    font-family: "Montserrat", system-ui;
+    text-wrap: wrap;
+    overflow: hidden;
+}
+
+.card-content-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 2rem;
+    background-color: aquamarine;
+    text-wrap: wrap;
+}
+
+
+.card-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    background-color:beige;
+    width: 10rem;
 }
