@@ -17,7 +17,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 56.9rem;
+    height: 50.9rem;
 }
 
 .card-img {
@@ -42,16 +42,79 @@ body{
     justify-content: center;
     align-items: start;
     margin: 2rem;
-    background-color: aquamarine;
     text-wrap: wrap;
 }
 
+h3 {
+    font-weight: 500;
+    font-size: 0.775rem;
+    letter-spacing: 0.20rem;
+    margin-bottom: 1.388rem;
+    color: #989BA1;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Fraunces", system-ui;
+    font-size: 1.79rem;
+    margin: 0 1rem 0.75rem 0.2rem ;
+}
+
+p {
+    font-weight: 500;
+    color: #989BA1;
+    font-size: 0.775rem;
+    word-spacing: 0.10rem; 
+    line-height: 1.2rem;
+    margin: 0.75rem 0.7rem 1rem 0.2rem ;
+}
+
+h4 {
+    text-decoration: line-through;
+    color: #797880;
+    font-weight: 500;
+    font-size: 0.775rem;
+    margin: 0;
+    padding: 0.7rem 0.7rem 0.7rem 1.7rem;
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+    margin: 0;
+}
 
 .card-price{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: start;
-    background-color:beige;
     width: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    width: 14.75rem;
+    height: 3rem;
+    border-radius: 0.438rem;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: "Montserrat", system-ui;
+    font-weight: 700;
+    background-image: url("images/icon-cart.svg");
+    background-repeat: no-repeat;
+    background-position: 29% 49%;
+    padding-left: 10%;
+}
+
+button:hover {
+    background-color: #1A4031;
+}
+
+
+@media only screen and (max-width: 590px) {
+    body {
+        background-color: wheat;
+    }
+    
 }
